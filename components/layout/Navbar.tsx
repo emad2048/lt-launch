@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/schedule", label: "Schedule" },
-  { href: "/quick-links", label: "Quick Links" },
+  { href: "/links", label: "Quick Links" },
   { href: "/templates", label: "Templates" },
   { href: "/insights", label: "Insights" },
 ] as const;
