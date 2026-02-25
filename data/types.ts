@@ -31,3 +31,17 @@ export interface QuickLink {
   category: QuickLinkCategory;
   description: string;
 }
+
+export type TemplateCategory =
+  | "Counseling"
+  | "Readiness"
+  | "Property"
+  | "Admin/Training";
+
+export interface Template {
+  id: string;
+  title: string;
+  filename: string;
+  category: TemplateCategory;
+  description: string;
+}
