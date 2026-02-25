@@ -17,3 +17,17 @@ export interface ScheduleWeek {
 }
 
 export type Schedule = ScheduleWeek[];
+
+export type QuickLinkCategory =
+  | "Personnel/Admin"
+  | "Training"
+  | "Maintenance/Logistics"
+  | "Finance";
+
+export interface QuickLink {
+  id: string;
+  title: string;
+  url: string;
+  category: QuickLinkCategory;
+  description: string;
+}
