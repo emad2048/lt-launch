@@ -4,7 +4,7 @@ export const templates: Template[] = [
   {
     id: "initial-counseling",
     title: "Initial Counseling (Leader)",
-    filename: "initial-counseling-leader.docx",
+    filename: "counseling-template.docx",
     category: "Counseling",
     description:
       "Standard format for initial leader counseling when a soldier joins your team or you assume responsibility. Use it within the first 30 days to set expectations and document goals.",
@@ -28,7 +28,7 @@ export const templates: Template[] = [
   {
     id: "medical-readiness-checklist",
     title: "Medical Readiness Checklist",
-    filename: "medical-readiness-checklist.pdf",
+    filename: "platoon-readiness-brief.pdf",
     category: "Readiness",
     description:
       "Checklist for tracking medical and dental readiness (PHA, immunizations, dental). Use it to brief your platoon’s readiness status or prep for SRP.",
@@ -44,7 +44,7 @@ export const templates: Template[] = [
   {
     id: "hand-receipt",
     title: "Hand Receipt (DA 2062)",
-    filename: "hand-receipt-da2062.docx",
+    filename: "property-inventory-template.docx",
     category: "Property",
     description:
       "Hand receipt format for signing for property. Use it when assuming or transferring property accountability or sub-hand-receipting to subordinates.",
