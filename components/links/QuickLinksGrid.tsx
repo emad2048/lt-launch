@@ -11,7 +11,7 @@ export function QuickLinksGrid({ links, className }: QuickLinksGridProps) {
   return (
     <div
       className={cn(
-        "grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 sm:gap-5",
+        "grid grid-cols-1 gap-5 md:grid-cols-2 sm:gap-6",
         className
       )}
       role="list"

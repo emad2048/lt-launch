@@ -52,8 +52,8 @@
   /* Primary background: turquoise */
   --background: oklch(0.88 0.06 195);
   --foreground: oklch(0.22 0.02 260);
-  /* Surface/cards: tan */
-  --card: oklch(0.94 0.05 75);
+  /* Surface/cards: tan (slightly darker for contrast) */
+  --card: oklch(0.91 0.05 75);
   --card-foreground: oklch(0.22 0.02 260);
   --popover: oklch(0.94 0.05 75);
   --popover-foreground: oklch(0.22 0.02 260);
@@ -63,7 +63,7 @@
   --secondary: oklch(0.92 0.04 75);
   --secondary-foreground: oklch(0.28 0.02 260);
   --muted: oklch(0.82 0.05 195);
-  --muted-foreground: oklch(0.4 0.03 260);
+  --muted-foreground: oklch(0.36 0.03 260);
   --accent: oklch(0.82 0.05 195);
   --accent-foreground: oklch(0.22 0.02 260);
   --destructive: oklch(0.577 0.245 27.325);
